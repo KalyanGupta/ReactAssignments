@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* To separate the elements evenly */
+}
+
+.left-image {
+    order: 1; /*Places the left image first */
+
+}
+
+.center-input {
+    order: 2; /*Places the input in the center*/
+}
+
+.right-image {
+    order: 3; /*Places the rigt image last*/
+}
