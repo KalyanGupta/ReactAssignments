@@ -1,0 +1,67 @@
+.logo{
+    width: 80px;
+    margin: 5px;
+}
+
+.Header{
+    display: flex;
+    border: 3px solid black;
+    justify-content: space-between;
+}
+
+.nav-items > ul{
+    list-style-type: none;
+    font-size: 24px;
+    display: flex;
+}
+
+.nav-items > ul > li{
+    padding: 10px;
+    margin: 10px;
+}
+.res-card{
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+}
+.res-card:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.res-logo{
+    width:150px;
+    height: 150px;
+    object-fit: cover; /*This property will ensure the image covers the card while maintaining its aspect ratio*/
+    display: block; /*This ensures the image is treated as a block element, which helps with centering*/
+    margin: 0 auto; /*This centers the image horizontally*/
+}
+
+.search{
+    padding:10px;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card{
+    height: 400px;
+    width: 200px;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+.login{
+    padding: 10;
+    margin: 10px;
+}
+.input-container{
+    text-align: center;
+    margin: 20px;
+}
+
